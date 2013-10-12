@@ -1,0 +1,20 @@
+{
+    "version": "1",
+    "name": "PortaPay",
+    "launch_path": "index.html",
+    "description": "An app to find nearby public restrooms, ranked based on a user-rated system.",
+    "developer": {
+        "name": "Craig Knott, Jamie Tanna, Tim Fogarty, Paula Besson",
+        "url": "http://hacksocnotts.co.uk"
+    },
+    "icons": {
+        "48": "/images/icon48.png"
+    },
+    "installs_allowed_from": ["*"],
+    "default_locale": "en",
+    "permissions": {
+        "geolocation": {
+            "description" : "Finding user location"
+        }
+    }
+}
